@@ -17,7 +17,7 @@ This will set up a virtual hard drive with a btrfs partition for research. The s
 
 To access the partition, first mount the partition
 ```sh
-sudo /mnt/ACFM-tests
+sudo mkdir /mnt/ACFM-tests
 mount /dev/loop0p1 /mnt/ACFM-tests #replace with the correct partition
 cd /mnt/ACFM-tests
 ```
