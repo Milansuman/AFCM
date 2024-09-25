@@ -1,0 +1,9 @@
+label: gpt
+label-id: 8D0CA270-E2ED-427E-BD85-39E3C8A5E9A9
+device: btrfs-test.iso
+unit: sectors
+first-lba: 2048
+last-lba: 4194270
+sector-size: 512
+
+btrfs-test.iso1 : start=        2048, size=     4190208, type=0FC63DAF-8483-4772-8E79-3D69D8477DE4, uuid=D47CC8F2-5537-4C7E-A84D-A2C453C4D31A
