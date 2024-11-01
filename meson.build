@@ -11,3 +11,4 @@ sources = files(
 executable('acfm', sources)
 
 # tests
+subdir('tests')

@@ -11,6 +11,6 @@ private:
 public:
     FileFormat(std::vector<uint8_t> header, std::vector<uint8_t> footer);
     std::vector<size_t> findHeaders(std::string filename);
-    std::vector<size_t> findFooters(std::string filename);
+    // std::vector<size_t> findFooters(std::string filename);
     ~FileFormat();
 };
