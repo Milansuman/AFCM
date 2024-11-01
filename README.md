@@ -21,3 +21,18 @@ sudo mkdir /mnt/ACFM-tests
 mount /dev/loop0p1 /mnt/ACFM-tests #replace with the correct partition
 cd /mnt/ACFM-tests
 ```
+
+If you have already built the btrfs-test.iso file but don't see the loopback device, run
+```sh
+sh loopback.sh
+```
+in the disks directory.
+
+## Build
+
+Ensure meson is installed. Then set up the build directory like so:
+```sh
+mkdir build
+meson setup build
+cd build && meson compile
+```
